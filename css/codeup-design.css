@@ -16,7 +16,8 @@ h1 h2 h3 h4 h5{
     font-family: 'Anton', sans-serif;
 }
 p{
-    font-family: 'Abel', sans-serif;;
+    font-family: 'Abel', sans-serif;
+    font-size: smaller;
 }
 .logo{
     box-sizing: border-box;
@@ -62,16 +63,25 @@ p{
 .mini-circle{
     justify-content: center;
     align-items: center;
-    display:flex ;
+    display:flex;
     box-sizing: border-box;
     width:18px;
     height: 18px;
     border-radius: 50%;
-    background-color: var(--red);
+    margin:0 2px ;
+    font-size: small;
+    font-weight: bold;
+
 }
 .area-header{
-    font-size: small;
+
 }
 .img>p{
     margin: 0 25%;
+}
+.img-box{
+    display: flex;
+    width:225px;
+    justify-content: center;
+    margin: 0 auto;
 }
