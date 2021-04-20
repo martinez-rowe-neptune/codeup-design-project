@@ -69,3 +69,9 @@ p{
     border-radius: 50%;
     background-color: var(--red);
 }
+.area-header{
+    font-size: small;
+}
+.img>p{
+    margin: 0 25%;
+}
