@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+:root {
+    --red: #ca684d;
+    --yellow: #d6a150;
+    --green: #8fab7a;
+    --bluish: #61a5a8;
+    --logoBorder: #497d76;
+    --reallyLightGray: #F0F0F0;
+    --lightGray: #E6E6E6;
+}
+body {
+    background-color: #F0F0F0;
+}
+h1 h2 h3 h4 h5{
+    font-family: 'Anton', sans-serif;
+}
+p{
+    font-family: 'Abel', sans-serif;;
+}
+.logo{
+    box-sizing: border-box;
+    height: 105px;
+    width: 105px;
+}
+.circle{
+    box-sizing: border-box;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    line-height: 105px;
+    border: 4px solid white;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
