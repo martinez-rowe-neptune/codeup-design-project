@@ -24,13 +24,48 @@ p{
     width: 105px;
 }
 .circle{
+    display:flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
-    height: 105px;
-    width: 105px;
+    height: 105px !important;
+    width: 105px !important;
     border-radius: 50%;
-    line-height: 105px;
+    /*line-height: 105px;*/
     border: 4px solid white;
     font-weight: bold;
     text-align: center;
     color: white;
+    margin:0 .5em;
+}
+.design{
+    background-color: var(--red)
+}
+.develop{
+    background-color: var(--yellow);
+}
+.support{
+    background-color: var(--green);
+}
+.host{
+    background-color: var(--bluish);
+}
+.apple-ipad{
+    border-radius: 5%;
+    border:4px solid var(--lightGray);
+    width:225px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini-circle{
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+    box-sizing: border-box;
+    width:18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: var(--red);
 }
