@@ -12,9 +12,10 @@
 body {
     background-color: #F0F0F0;
 }
-h1 h2 h3 h4 h5{
+h1 h2 h3 h4 h5 h6{
     font-family: 'Anton', sans-serif;
 }
+
 p{
     font-family: 'Abel', sans-serif;
     font-size: smaller;
@@ -39,6 +40,16 @@ p{
     color: white;
     margin:0 .5em;
 }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .hr {
+        width: 90%;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .hr{
+        width: 75%;
+    }
+}
 .design{
     background-color: var(--red)
 }
@@ -54,7 +65,7 @@ p{
 .apple-ipad{
     border-radius: 5%;
     border:4px solid var(--lightGray);
-    width:225px;
+    width:220px;
     height: 152px;
     display: block;
     margin-left: auto;
@@ -93,11 +104,14 @@ p{
 }
 .fa-twitter{
     color: blue;
+    margin-left: -8px;
 }
 .tweet-text{
     width: 225px;
+    margin-left: -8px;
 }
 
 h6{
     width: 225px;
+    font-weight: bold;
 }
