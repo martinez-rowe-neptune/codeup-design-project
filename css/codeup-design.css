@@ -55,6 +55,7 @@ p{
     border-radius: 5%;
     border:4px solid var(--lightGray);
     width:225px;
+    height: 152px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -92,4 +93,11 @@ p{
 }
 .fa-twitter{
     color: blue;
+}
+.tweet-text{
+    width: 225px;
+}
+
+h6{
+    width: 225px;
 }
