@@ -80,6 +80,7 @@ p{
 @media screen and (min-width: 576px) and (max-width: 767px){
     .codeup-text{
         min-width: 100% !important;
+
     }
 }
 
