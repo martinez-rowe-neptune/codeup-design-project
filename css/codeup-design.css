@@ -47,6 +47,11 @@ p{
     height: 105px;
     width: 105px;
 }
+.l-row{
+    height: 75px;
+}
+
+
 .circle{
     display:flex;
     align-items: center;
@@ -72,6 +77,23 @@ p{
         width: 75%;
     }
 }
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .codeup-text{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1200px){
+    .nav{
+        width:75%;
+    }
+}
+@media screen and (min-width:375px) and (max-width:575px){
+    .nav{
+        width:100%;
+    }
+}
+
 .design{
     background-color: var(--red)
 }
