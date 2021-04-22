@@ -94,6 +94,11 @@ p{
         width:100%;
     }
 }
+@media screen and (min-width: 1200px){
+    .logo>div{
+        width: 75%;
+    }
+}
 
 .design{
     background-color: var(--red)
