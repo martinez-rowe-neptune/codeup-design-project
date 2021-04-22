@@ -12,14 +12,36 @@
 body {
     background-color: #F0F0F0;
 }
+.break{
+    position: relative;
+    top: 100px;
+}
+header {
+    height: 65px;
+    background-color: white;
+    width: 100%;
+}
+.logo>div{
+    height: 65px;
+}
+.codeup-text{
+    font-size: 28px;
+}
+.circles{
+    box-sizing: border-box;
+    width: 105px;
+    height: 105px;
+}
+
 h1 h2 h3 h4 h5 h6{
     font-family: 'Anton', sans-serif;
 }
 
 p{
     font-family: 'Abel', sans-serif;
-    font-size: smaller;
+    font-size: x-small;
 }
+
 .logo{
     box-sizing: border-box;
     height: 105px;
@@ -116,10 +138,10 @@ h6{
     font-weight: bold;
 }
 
-.container-header{
-    box-sizing: border-box;
-    background:black;
-}
+/*.container-header{*/
+/*    box-sizing: border-box;*/
+/*    background:black;*/
+/*}*/
 /*.logo{*/
 /*    position: absolute;*/
 /*}*/
