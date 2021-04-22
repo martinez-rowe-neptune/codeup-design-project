@@ -79,7 +79,7 @@ p{
 }
 @media screen and (min-width: 576px) and (max-width: 767px){
     .codeup-text{
-        width: 100%;
+        min-width: 100% !important;
     }
 }
 
@@ -148,11 +148,10 @@ p{
 }
 .fa-twitter{
     color: blue;
-    margin-left: -8px;
 }
 .tweet-text{
     width: 225px;
-    margin-left: -8px;
+
 }
 
 h6{
